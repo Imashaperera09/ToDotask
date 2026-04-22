@@ -89,3 +89,9 @@ The frontend will be available at `http://localhost:3000` and the backend at `ht
 | PUT | /api/todos/:id | Update a TODO (title/description) |
 | PATCH | /api/todos/:id/done | Toggle the done status |
 | DELETE | /api/todos/:id | Delete a TODO |
+
+🎥 Demo Video
+View Project Demo
+
+https://github.com/user-attachments/assets/91198077-8962-4491-b3c8-a3f3f25a86c8
+
