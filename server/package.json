@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "1. Navigate to this directory:\r    ```sh\r    cd server\r    ```\r 2. Install dependencies:\r    ```sh\r    npm install\r    ```\r 3. Set up MongoDB connection:\r    - By default, the app expects a MongoDB URI in the `.env` file as `MONGODB_URI`.\r    - Example for local MongoDB:\r      ```env\r      MONGODB_URI=mongodb://localhost:27017/todoapp\r      ```\r    - Example for MongoDB Atlas:\r      ```env\r      MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/todoapp?retryWrites=true&w=majority\r      ```\r 4. Start the backend server:\r    ```sh\r    npm start\r    ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
